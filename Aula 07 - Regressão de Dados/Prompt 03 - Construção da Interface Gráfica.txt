@@ -1,0 +1,24 @@
+Agora quero criar a interface gráfica que vai usar o modelo preditivo que acabamos de construir.
+
+Monte a interface gráfica com Streamlit, em um único arquivo de código-fonte (app.py).
+
+A tela deve pedir as cinco características do funcionário e mostrar o salário previsto, conforme a estrutura da base de dados que usamos para realizar o treinamento do Machine Learning.
+
+Na interface gráfica, o usuário nunca deve digitar nada. Onde a característica tem um número limitado de possibilidades, ofereça a lista de opções para ele escolher. Onde a característica é numérica, ofereça um controle gráfico que respeite o valor mínimo e o máximo que existe na base de dados.
+
+As opções devem aparecer na tela escritas por extenso, do jeito que uma pessoa possa entender. É o seu código-fonte que deve converter a escolha para o formato que o modelo preditivo espera, exatamente como foi feito no treinamento do Machine Learning.
+
+A interface gráfica deve ocupar 75% da largura da tela no computador e 100% da largura da tela no celular, se ajustando sozinha ao tamanho do dispositivo digital (responsividade).
+
+Capriche no visual e na experiência de uso:
+
+Título claro; Campos organizados e agrupados; Resultado em destaque e formatado como dinheiro em reais; e alguma orientação para o usuário saber o que fazer.
+
+Sobre o código-fonte:
+
+Quero todo conteúdo em um arquivo só (app.py) organizado em funções curtas com uma
+responsabilidade cada; Nomes de variáveis em português e por extenso, sem abreviações.
+
+Carregue o modelo preditivo que será consumido uma única vez, e não a cada clique.
+
+Me entregue o arquivo de código-fonte (app.py) pronto para download e me diga como executá-lo.

@@ -1,0 +1,24 @@
+Estou aprendendo Machine Learning e quero treinar meu primeiro modelo para regressão de dados. Você vai me ajudar a montar um Jupyter Notebook em Python, bem simples, pois estou começando agora.
+
+O caso de uso é a previsão do salário de um funcionário. Estou enviando a base de dados (salarios.csv) em formato de texto delimitado, onde as colunas são separadas por ponto e vírgula.
+
+  - Variável alvo: Salário.
+  - Variáveis preditoras: Outras cinco colunas do arquivo.
+
+Comece o notebook com uma primeira célula reunindo todas as importações de bibliotecas que o código de programação inteiro vai precisar, do começo ao fim.
+
+Depois, siga as quatro etapas do Machine Learning, cada uma em sua própria célula, com um título antes explicando o que ela faz:
+
+1. Ingestão dos dados: carregar o arquivo e preparar o que for preciso. Algumas colunas são texto, e o algoritmo só entende número resolva isso e me explique depois o que você fez.
+
+2. Separação dos dados: 20% para testes, sorteados de um jeito que o resultado se repita toda vez que eu rodar o código de programação.
+
+3. Treinamento do algoritmo de Regressão Linear.
+
+4. Validação do resultado, mostrando o R² e o RMSE na tela.
+
+Por fim, em uma célula separada, salve o modelo preditivo treinado em um arquivo pronto para consumo (preditor-salarios.pkl), junto com tudo o que for necessário para que eu consiga usá-lo depois em uma interface gráfica que deverá ser construída.
+
+Escreva o código de programação o mais simples possível, sem funções, e coloque um comentário em português acima de cada linha explicando o que ela faz. Me entregue como resultado deste comando o arquivo do notebook (.ipynb) pronto para download, e não apenas o código de programação escrito aqui na conversa.
+
+Se ficar em dúvida sobre alguma coisa, pergunte antes de gerar o notebook.

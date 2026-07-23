@@ -1,0 +1,5 @@
+Antes de eu rodar o notebook que você acabou de me ajudar a fazer para treinar um modelo para regressão de dados para previsão de salários, me forneça um único comando do PIP (gerenciador de pacotes do Python) para instalar todas as bibliotecas que você usou nele, do começo ao fim.
+
+Inclua também a biblioteca Streamlit, que eu vou usar depois para construir a interface gráfica, para que usuários possam usar o preditor de salários pela web.
+
+Me responda só com o comando do PIP, sem explicação.
