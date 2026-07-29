@@ -1,0 +1,26 @@
+Estou aprendendo Machine Learning e quero treinar meu primeiro modelo de classificação de dados. Você vai me ajudar a montar um Jupyter Notebook em Python, bem simples, pois estou começando agora.
+
+O caso de uso é sobre a previsão de diabetes gestacional em uma paciente. Estou enviando a base de dados (diabetes-gestacional.csv) no formato de texto delimitado, onde as colunas são separadas por ponto e vírgula.
+
+- Variável alvo: Diabetes, onde 1 significa que a paciente tem e 0 que não tem.
+- Variáveis preditoras: Demais colunas, com exceção da coluna de ID.
+
+Comece o notebook com uma primeira célula reunindo todas as importações de bibliotecas que o código de programação inteiro vai precisar, do começo ao fim.
+
+Depois, siga as quatro etapas do Machine Learning, cada uma em sua própria célula, com um título antes explicando o que ela faz:
+
+1. Ingestão dos dados: Carregar o arquivo com os dados e separar a variável alvo das variáveis preditoras.
+
+2. Separação dos dados: Usar 20% dos dados para validação do modelo preditivo, sorteados de um jeito que o resultado se repita toda vez que eu rodar o código de programação, mantendo a mesma proporção entre pacientes com e sem diabetes nas duas partes.
+
+3. Treinamento do algoritmo de XGBoost.
+
+4. Validação do resultado, mostrando na tela a acurácia e a matriz de confusão, e explicando o que cada número da matriz de confusão significa.
+
+Por fim, em uma célula separada, salve o modelo preditivo treinado em um arquivo (preditor-diabetes.pkl) completo, ou seja, com tudo o que for necessário para que eu consiga usá-lo depois a partir de uma interface gráfica.
+
+Escreva o código de programação o mais simples possível, sem funções, e coloque um comentário em português acima de cada linha explicando o que ela faz. Se ao treinar o modelo preditivo aparecer algum aviso na tela, ajuste o código de programação para que ele não apareça.
+
+Me entregue o arquivo do notebook (.ipynb) pronto para download, e não apenas o código de programação escrito aqui na conversa.
+
+Se ficar em dúvida sobre alguma coisa, pergunte antes de gerar o notebook.
